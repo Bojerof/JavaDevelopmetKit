@@ -5,4 +5,9 @@ public class BackEnder extends Developer implements BackEndAction{
     public void back() {
         System.out.println("Backend Action");
     }
+
+    @Override
+    public void developerGUI(){
+        System.out.println("BackEnder GUI method");
+    }
 }
